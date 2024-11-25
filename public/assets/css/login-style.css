@@ -1,0 +1,89 @@
+/* Made with love by Mutiullah Samim*/
+
+.container{
+    height: 100%;
+    align-content: center;
+    border-radius: 50px, 50px, 50px, 50px;
+}
+
+.card{
+    height: 370px;
+    margin-top: 30px;
+    margin-left: -80px;
+    margin-bottom: auto;
+    width: 400px;
+    background-color:  #617d93;
+    border-radius: 25px;
+    /* opacity: 0.1; */
+}
+
+.card-body{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    
+    border-radius: 25px;
+    /* opacity: 0.1;
+    background-color:  #53e958;
+    */
+}
+
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.card .m-login__form input{
+    background-color: transparent !important;
+    /* border-radius: 0px !important; */
+    border-bottom: 1px solid rgb(151, 151, 151) !important;
+    color: #fff !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+    /* padding: 0px !important; */
+    padding-left: 10px;
+    font-size: 20px;
+}
+.card .m-login__form label{
+    color: #fff;
+    font-size: 18px;
+}
+
+.card .m-login__form .btn{
+     background-color: #000 !important; 
+    color: #FFD700 !important;
+    border: none !important;
+    font-size: 18px;
+}
+
+.card .m-login__form .btn:hover{
+    background-color: #FFD700 !important;
+    color: #000 !important;
+    border: none !important;
+} 
+
+.m-login.m-login--2.m-login-2--skin-3 .m-login__container .m-login__form {
+    color: #000 !important;
+}
+
+.m-login.m-login--2 .m-login__wrapper .m-login__container .m-login__form .m-form__group .form-control {
+    border-radius: 30px;
+    border: none;
+    padding: 1.8rem 1.5rem;
+    margin-top: 1.5rem;
+}
+.m-login.m-login--2 .m-login__wrapper .m-login__container .m-login__form .m-login__form-action .m-login__btn {
+    display: inline-block;
+    text-align: center;
+    padding: 1.0rem 12rem;
+    margin-top: 0.8rem;
+}
